@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>Attention Specialty for Diffusion Transformers</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,36 +52,35 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Enhancing Multi-Instance Synthesis in Diffusion Transformers with Attention Speciality Tuning</h1>
+            <h1 class="title is-1 publication-title">Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Chunyang Zhang</a><sup>1*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=0hXn5p8AAAAJ" target="_blank">Chunyang Zhang</a><sup>1*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Zhenhong Sun</a><sup>2*</sup>,</span>
+                  <a href="https://scholar.google.com.hk/citations?user=eDiXHP8AAAAJ&hl=zh-CN" target="_blank">Zhenhong Sun</a><sup>2*†</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zhicheng Zhang</a><sup>3</sup>,</span>
+                    <a href="" target="_blank">Zhicheng Zhang</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Junyan Wang</a><sup>4</sup>,</span>
+                    <a href="https://scholar.google.com.au/citations?hl=en&user=5yS_tTUAAAAJ" target="_blank">Junyan Wang</a><sup>3</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yu Zhang</a><sup>3</sup>,</span>
+                    <a href="https://scholar.google.com.au/citations?user=wFVyO90AAAAJ&hl=en" target="_blank">Yu Zhang</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Dong Gong</a><sup>4</sup>,</span>
+                    <a href="https://donggong1.github.io/" target="_blank">Dong Gong</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Huadong Mo</a><sup>5✉</sup>,</span>
+                    <a href="https://scholar.google.com/citations?user=-s1nb1wAAAAJ&hl=en" target="_blank">Huadong Mo</a><sup>1✉</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Daoyi Dong</a><sup>6✉</sup>,</span>
+                    <a href="https://scholar.google.com.au/citations?user=ACw1Y4oAAAAJ&hl=en" target="_blank">Daoyi Dong</a><sup>2,4✉</sup>,</span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block"><small><br><sup>1</sup>School of System and Computing, University of New South Wales</small></span>
-                    <span class="author-block"><small><br><sup>2</sup>School of Engineering, Australian National University</small></span>
-                    <span class="author-block"><small><br><sup>3</sup>School of Business, University of New South Wales</small></span>
-                    <span class="author-block"><small><br><sup>4</sup>Australian Institute for Machine Learning, University of Adelaide</small></span>
-                    <span class="author-block"><small><br><sup>5</sup>School of Computer Science and Engineering, University of New South Wales</small></span>
-                    <span class="author-block"><small><br><sup>6</sup>School of Computer Science, University of Technology Sydney</small></span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution</small></span>
-                    <span class="eql-cntrb"><small><br><sup>✉</sup>Corresponding Authors</small></span>
+                    <span class="author-block" style="display: inline-block;"><small><br><sup>1</sup>University of New South Wales</small></span>
+                    <span class="author-block" style="display: inline-block;"><small><br><sup>2</sup>Australian National University</small></span>
+                    <span class="author-block" style="display: inline-block;"><small><br><sup>3</sup>University of Adelaide</small></span>
+                    <span class="author-block" style="display: inline-block;"><small><br><sup>4</sup>University of Technology Sydney</small></span>
+                    <span class="eql-cntrb" style="display: inline-block;"><small><br><sup>*</sup>Equal Contribution</small></span>
+                    <span class="eql-cntrb" style="display: inline-block;"><small><br><sup>†</sup>Project Lead</small></span>
+                    <span class="eql-cntrb" style="display: inline-block;"><small><br><sup>✉</sup>Corresponding Authors</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -156,7 +155,7 @@
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
-<section class="section hero is-light">
+<section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -176,12 +175,12 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Hierarchical Attention Responses of DiT Model</h2>
+        <h2 class="title is-3">Motivations</h2>
         <div class="columns is-centered">
           <div class="column is-full-width">
             <img src="./static/images/FLUX.png" class="method-image" alt="Method illustration" />
             <p>
-              Schematic architecture of the DiT-based models (a) with double/single-stream attentions (b).  The attention map in (c) reveals four distinct interaction patterns: text-to-text, text-to-image, image-to-text, and image-to-image, enabling deep consistent fusion between text and visual tokens.
+              <strong>Architecture Overview of DiT-based Models:</strong> DiT‑based models is illustrated in (a), with (b) contrasting double‑stream and single‑stream attention configurations. The attention map in (c) reveals four distinct interaction modalities—text‑to‑text, text‑to‑image, image‑to‑text, and image‑to‑image—enabling deep, coherent semantic fusion between textual and visual tokens.
             </p>
           </div>
         </div>
@@ -189,10 +188,7 @@
           <div class="column is-full-width">
             <img src="./static/images/attn.png" class="method-image" alt="Method illustration" />
             <p>
-              Attention map averages for the prompt ``Red cube in a forest".
-              (a) T2T maps show strong intra-segment interactions within valid tokens of ``Red cube" (first 3 tokens) and ``in a forest" (last 4 tokens).
-              (b) I2I maps (the maximum value of each point relative to all other points) reveal growing interaction between ``Red cube" and ``a forest" segments over steps.
-              (c/d/e)  I2T attention maps on individual tokens highlight that instance tokens dominate early layers, background tokens in the middle, and color tokens later, with most information integrated in the first half of steps. T2I maps showing lower scores with weak impact and thus are neglected.
+              <strong>Attention Dynamics for "Red cube in a forest":</strong> Our analysis reveals distinct attention patterns across modalities: (1) T2T maps establish strong intra-segment binding during early processing, (2) I2I interactions gradually emerge between object and environment, while (3) I2T attention progresses through staged feature integration. T2I maps show negligible impact and are excluded from consideration.
             </p>
           </div>
         </div>
@@ -201,7 +197,7 @@
           <div class="column is-full-width">
             <img src="./static/images/analysis.png" class="method-image" alt="Method illustration" />
             <p>
-              Step-Layer-Wise Token Exchange involved injecting specific tokens between two prompts formatted as ``[color] [Instance] in [Background]" (a). First 6-step exchanging results show that specific token concept can be replaced in certain layers (e.g., L25-27) with other concepts preserving, aligning with the hierarchical attention responses.
+              <strong>Token Exchange Dynamics Analysis:</strong> First 6-step exchanging results show that specific token concept can be replaced in certain layers (e.g., L25-27) with other concepts preserving, aligning with the hierarchical attention responses.
             </p>
           </div>
         </div>
@@ -216,14 +212,12 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Methods</h2>
+        <h2 class="title is-3">Method</h2>
         <div class="columns is-centered">
           <div class="column is-full-width">
             <img src="./static/images/method.png" class="method-image" alt="Method illustration" />
             <p>
-              Overview of the hierarchical tuning strategy for DiT models. (a) Attention specialty tuning enhances meaningful regions while suppressing non-meaningful ones via a unified scalable module with distinct tuning masks.
-              (b) Tuning masks for T2T and I2I masks are directly built from prompt segments and sketches.
-              (c) Hierarchical and step-layer-wise module refines alignment by adjusting each component’s impact across specific layers and steps, assigning layers for attributes, instances, and background tokens within first 16 steps.
+              <strong>Hierarchical Tuning Strategy for DiT-based Models:</strong> Our approach anchors semantic precision in early denoising through mask-guided attention modulation with preserved structural encoding, and transitions to hierarchical attention refinement for layout-text alignment in later steps. During attention modulation, we inject spatial guidance via sketch-based mask perturbations. This layer-adaptive strategy balances layout fidelity and generative diversity.
             </p>
           </div>
         </div>
@@ -236,12 +230,29 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Qualitative Comparisons on Multi-Instance Synthesis</h2>
+        <h2 class="title is-3">Experiments</h2>
         <div class="columns is-centered">
           <div class="column is-full-width">
             <img src="./static/images/comparison.png" class="method-image" alt="Method illustration" />
             <p>
-              Our approach extends DiT models (SD v3.5 and FLUX) with better multi-instance alignment with prompts and sketch-based layouts.
+              <strong>Qualitative Comparisons on Multi-Instance Synthesis:</strong> Our approach extends DiT-based models (SD v3.5 and FLUX) with better multi-instance alignment with prompts and sketch-based layouts.
+            </p>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <!-- 第一列 -->
+          <div class="column is-half">
+            <img src="./static/images/ccases.png" class="method-image" alt="Complex cases illustration" />
+            <p class="has-text-centered">
+              <strong>More Complex Applications:</strong> Our method demonstrates precision and adaptability in managing complex scenarios, as shown by the visualization of handling small/repeated instances
+            </p>
+          </div>
+
+          <!-- 第二列 -->
+          <div class="column is-half">
+            <img src="./static/images/ablation.png" class="method-image" alt="Ablation study" />
+            <p class="has-text-centered">
+              <strong>Ablation study:</strong> The I2T module mainly enhances layout-prompt alignment, T2T improves token interactions within segments, and I2I further refines instance self-alignment. Arrow direction indicates better.
             </p>
           </div>
         </div>
@@ -249,42 +260,6 @@
     </div>
   </div>
 </section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Complex Layout Application</h2>
-          <div class="columns is-centered">
-            <div class="column is-full-width">
-              <img src="./static/images/ccases.png" class="method-image" alt="Method illustration" />
-              <p>
-                Our method demonstrates precision and adaptability in managing complex scenarios, as shown by the visualization of handling small/repeated instances
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Ablation Study</h2>
-          <div class="columns is-centered">
-            <div class="column is-full-width">
-              <img src="./static/images/ablation.png" class="method-image" alt="Method illustration" />
-              <p>
-                Ablation study on attention modules. The I2T module mainly enhances layout-prompt alignment, T2T improves token interactions within segments, and I2I further refines instance self-alignment. Arrow direction indicates better.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">

@@ -1,2 +1,2 @@
-# Multi-Instance Synthesis in Diffusion Transformers
-Enhancing Multi-Instance Synthesis in Diffusion Transformers with Attention Speciality Tuning
+#  Attention Speciality for Diffusion Transformers
+Hierarchical and Step-Layer-Wise Tuning of Attention Specialty for Multi-Instance Synthesis in Diffusion Transformers
